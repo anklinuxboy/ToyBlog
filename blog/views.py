@@ -7,5 +7,6 @@ class BlogListView(ListView):
     template_name = 'home.html'
 
 class BlogDetailView(DetailView):
+    print('detail view setup')
     model = Post
     template_name = 'post_detail.html'
