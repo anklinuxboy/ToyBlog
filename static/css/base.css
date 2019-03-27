@@ -17,3 +17,12 @@ header h1 a {
 h2 {
     color: rebeccapurple
 }
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
